@@ -1,0 +1,4 @@
+POSTGRES_URL=postgresql://postgres:PASSWORDisCzuw@autorack.proxy.rlwy.net:27599/railway
+REDIS_URL=redis://default:PASSWORD@autorack.proxy.rlwy.net:37765
+SECRET_KEY='KEY'
+DEBUG=True

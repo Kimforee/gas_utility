@@ -1,0 +1,19 @@
+.vercel
+*.log
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Environments 
+.env
+.env2
+.venv 
+env/ 
+env2/
+venv/ 
+ENV/
+ENV2/ 
+env.bak/ 
+venv.bak/
+env2.bak/
