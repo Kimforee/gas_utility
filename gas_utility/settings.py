@@ -68,7 +68,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 1,
+    'PAGE_SIZE': 5,
 }
 
 AUTH_USER_MODEL = 'accounts.Customer'
@@ -100,8 +100,7 @@ DATABASES = {
     )
 }
 
-# CELERY_BROKER_URL = config('REDIS_URL')
-CELERY_BROKER_URL = 'redis://127.0.0.1:6379/0'
+CELERY_BROKER_URL = config('REDIS_URL')
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 
