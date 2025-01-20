@@ -11,8 +11,6 @@ from rest_framework.exceptions import PermissionDenied
 from rest_framework.parsers import MultiPartParser, FormParser
 from .tasks import process_service_request
 
-from .tasks import process_service_request
-
 class SubmitRequestView(APIView):
     permission_classes = [IsAuthenticated]
 
