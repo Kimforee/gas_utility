@@ -14,8 +14,10 @@ Key technologies used include:
 - **WSL** for running Celery and Redis on Windows.
 
 The system effectively manages high customer volumes using asynchronous processing, ensuring reduced wait times and improved service quality.
-following is the adminstration ss for customer management
+Following is the adminstration ss for customer management
 ![image](https://github.com/user-attachments/assets/1b91dc6a-2974-4d77-9678-63a62532cf46)
+Following are the requests by customer to be managed by admins
+![image](https://github.com/user-attachments/assets/570b3a15-657e-4879-ae92-668b8d6a15b4)
 
 ---
 
